@@ -1,0 +1,70 @@
+R version 4.6.2 (2026-10-29)
+Platform: aarch64-apple-darwin23
+Running under: macOS Tahoe 26.6
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Europe/Moscow
+tzcode source: internal
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] clusterProfiler_4.20.3      patchwork_1.3.2            
+ [3] ggrepel_0.9.8               pheatmap_1.0.13            
+ [5] org.Hs.eg.db_3.23.1         AnnotationDbi_1.74.0       
+ [7] DESeq2_1.52.0               SummarizedExperiment_1.42.0
+ [9] Biobase_2.72.0              MatrixGenerics_1.24.0      
+[11] matrixStats_1.5.0           GenomicRanges_1.64.0       
+[13] Seqinfo_1.2.0               IRanges_2.46.0             
+[15] S4Vectors_0.50.3            BiocGenerics_0.58.1        
+[17] generics_0.1.4              data.table_1.18.6.1        
+[19] lubridate_1.9.5             forcats_1.0.1              
+[21] stringr_1.6.0               dplyr_1.2.1                
+[23] purrr_1.2.2                 readr_2.2.0                
+[25] tidyr_1.3.2                 tibble_3.3.1               
+[27] ggplot2_4.0.3               tidyverse_2.0.0            
+
+loaded via a namespace (and not attached):
+  [1] RColorBrewer_1.1-3      rstudioapi_0.19.0       jsonlite_2.0.0         
+  [4] tidydr_0.0.7            magrittr_2.0.5          ggtangle_0.1.4         
+  [7] farver_2.1.2            ragg_1.5.2              fs_2.1.0               
+ [10] vctrs_0.7.3             memoise_2.0.1           ggtree_4.2.1           
+ [13] htmltools_0.5.9         S4Arrays_1.12.1         SparseArray_1.12.3     
+ [16] gridGraphics_0.5-1      htmlwidgets_1.6.4       plyr_1.8.9             
+ [19] httr2_1.3.0             cachem_1.1.0            igraph_2.3.4           
+ [22] lifecycle_1.0.5         pkgconfig_2.0.3         Matrix_1.7-6           
+ [25] R6_2.6.1                fastmap_1.2.0           gson_0.2.2             
+ [28] digest_0.6.39           aplot_0.3.2             enrichplot_1.32.1      
+ [31] ggnewscale_0.5.2        aisdk_1.4.12            textshaping_1.0.5      
+ [34] RSQLite_3.53.3          labeling_0.4.3          timechange_0.4.0       
+ [37] mgcv_1.9-4              httr_1.4.9              polyclip_1.10-7        
+ [40] abind_1.4-8             compiler_4.6.2          bit64_4.8.6            
+ [43] fontquiver_0.2.1        withr_3.0.3             S7_0.2.2               
+ [46] BiocParallel_1.46.0     DBI_1.3.0               ggforce_0.5.0          
+ [49] MASS_7.3-66             rappdirs_0.3.4          DelayedArray_0.38.2    
+ [52] tools_4.6.2             otel_0.2.0              ape_5.8-1              
+ [55] scatterpie_0.2.6        glue_1.8.1              callr_3.8.0            
+ [58] nlme_3.1-171            GOSemSim_2.38.3         grid_4.6.2             
+ [61] cluster_2.1.8.3         reshape2_1.4.5          gtable_0.3.6           
+ [64] tzdb_0.5.0              hms_1.1.4               XVector_0.52.0         
+ [67] pillar_1.11.1           yulab.utils_0.2.5       splines_4.6.2          
+ [70] tweenr_2.0.3            treeio_1.36.1           lattice_0.23-1         
+ [73] bit_4.6.0               tidyselect_1.2.1        fontLiberation_0.1.0   
+ [76] GO.db_3.23.1            locfit_1.5-9.12         Biostrings_2.80.2      
+ [79] fontBitstreamVera_0.1.1 stringi_1.8.9           lazyeval_0.2.3         
+ [82] ggfun_0.2.2             yaml_2.3.12             codetools_0.2-20       
+ [85] gdtools_0.5.2           qvalue_2.44.0           BiocManager_1.30.27    
+ [88] ggplotify_0.1.4         cli_3.6.6               systemfonts_1.3.2      
+ [91] processx_3.9.0          Rcpp_1.1.2              png_0.1-9              
+ [94] parallel_4.6.2          blob_1.3.0              DOSE_4.6.0             
+ [97] tidytree_0.4.8          ggiraph_0.9.6           enrichit_0.2.7         
+[100] scales_1.4.0            crayon_1.5.3            rlang_1.3.0            
+[103] KEGGREST_1.52.2        
