@@ -1,0 +1,16 @@
+# Input data (not distributed)
+data/
+
+# Intermediate R objects
+*.rds
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+.Rapp.history
+
+# OS
+.DS_Store
+Thumbs.db
