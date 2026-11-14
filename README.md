@@ -1,4 +1,3 @@
-
 # Differential Transcriptome Analysis of the Posterior Superior Temporal Gyrus in Schizophrenia
 
 Coursework project (HSE University, Faculty of Biology and Biotechnology, Cognitive Neuroscience programme).
@@ -7,10 +6,10 @@ Differential gene expression analysis in the posterior superior temporal gyrus (
 
 ## Key findings
 
-- Final sample after QC: 10 samples (5 HC, 5 SZ), with 5 females and 5 males in each group.
+- Final sample after QC: 20 samples (10 HC, 10 SZ), with 5 females and 5 males in each group.
 - Wald test (padj < 0.05): 2 genes, *CLEC7A* (downregulated in SZ) and *LRRC37A2* (upregulated in SZ).
 - Likelihood ratio test (LRT, padj < 0.05): 20 genes, 15 after removing technical artefacts (|log2FC| > 0.5, baseMean < 100,000). Both Wald genes are included in this list.
-- GSEA (GO Biological Process, genes ranked by LRT results): suppression of immune processes and activation of mitochondrial energy metabolism in SZ.
+- GSEA (GO Biological Process, genes ranked by LRT results): 240 significant terms (padj < 0.05), 219 suppressed and 21 activated in SZ. Immune processes are suppressed (e.g. adaptive immune response, leukocyte activation), while mitochondrial energy metabolism is activated (e.g. oxidative phosphorylation, aerobic electron transport chain).
 
 ## Analysis design
 
@@ -64,7 +63,7 @@ The full dataset covers RNA-seq of 42 brain regions from 31 donors (11 HC, 10 SZ
 
 ## Requirements and usage
 
-R 4.2 or newer is required, together with the following packages:
+R 4.2 or newer is required (the analysis was run with R 4.6.2, Bioconductor 3.23; exact package versions are saved to `results/sessionInfo.txt`). Required packages:
 
 ```r
 install.packages(c("tidyverse", "data.table", "ggrepel", "patchwork", "pheatmap"))
@@ -83,7 +82,7 @@ The script writes figures and tables to `results/` and records package versions 
 
 ## Limitations
 
-- The small sample size (n = 5 per group) limits statistical power.
+- The small sample size (n = 10 per group) limits statistical power.
 - Post-mortem interval and antipsychotic treatment are not included in the model.
 - The results have not been validated in an independent cohort.
 
